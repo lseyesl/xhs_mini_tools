@@ -1,0 +1,10 @@
+{
+  "name": "xhs-mini-tools",
+  "private": true,
+  "packageManager": "pnpm@12.13.0",
+  "scripts": {
+    "build": "pnpm -r --no-include-workspace-root run --if-present build",
+    "check": "pnpm -r --no-include-workspace-root run --if-present check",
+    "package:zip": "pnpm -r --no-include-workspace-root run --if-present package:zip"
+  }
+}

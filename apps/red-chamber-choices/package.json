@@ -1,0 +1,11 @@
+{
+  "name": "@xhs-mini-tools/red-chamber-choices",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "python3 -m http.server 4173 --bind 127.0.0.1 --directory src",
+    "build": "python3 scripts/artifact.py build",
+    "check": "node --test scripts/story.test.mjs",
+    "package:zip": "pnpm run build && pnpm run check && python3 scripts/artifact.py package"
+  }
+}
