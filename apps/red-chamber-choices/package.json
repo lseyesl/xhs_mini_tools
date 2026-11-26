@@ -2,6 +2,11 @@
   "name": "@xhs-mini-tools/red-chamber-choices",
   "version": "0.1.0",
   "private": true,
+  "pages": {
+    "title": "红楼拾章",
+    "description": "随林黛玉走过大观园，在四回故事里作出选择，收下这一程的徽章。",
+    "cover": "assets/papercraft/garden-map-landscape.webp"
+  },
   "scripts": {
     "dev": "python3 -m http.server 4173 --bind 127.0.0.1 --directory src",
     "build": "python3 scripts/artifact.py build",
